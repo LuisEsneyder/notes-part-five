@@ -1,0 +1,11 @@
+GET http://localhost:3001/api/notes
+###
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvb3QiLCJpZCI6IjY0NGEwMGY3ODdiYzYzYmUxYzk3YTYwZiIsImlhdCI6MTY4MjYwNjg4MCwiZXhwIjoxNjgyNjA2OTQwfQ.ifx8jTQZjE3oF_DIdORXt3lx9N2zIa1etmwo2mfl9iw
+
+{
+    "content" : "three prueba token 60 segundos",
+    "important": true
+}
+###
