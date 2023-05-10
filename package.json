@@ -9,7 +9,7 @@
     "start:test": "cross-env NODE_ENV=test node index.js",
     "dev": "cross-env NODE_ENV=development nodemon index.js ",
     "build:ui": "rm -rf dist && cd ../note-fronent && npm run build && cp -r dist ../backend",
-    "deploy:full": "npm run build:ui && git add . && git commit -m build:ui && git push origin master"
+    "deploy:full": "npm run build:ui && git add . && git add . && git commit -m build:ui && git push origin master"
   },
   "author": "Luis",
   "license": "ISC",
